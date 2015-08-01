@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>React Everywhere</title>
+    <script type="text/javascript" src="node_modules/requirejs/require.js"></script>
+    <script type="text/javascript">
+        require.config({
+            paths: {
+                'react' : 'node_modules/react/dist/react.js',
+                'jsxTransformer' : 'node_modules/react/dist/JSXTransformer.js'
+            }
+        });
+        require(["modules/main"]);
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/v0.10.35/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-engine-example-simple' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'react-engine-example-simple', null ]
+5 verbose cache add name=undefined spec="react-engine-example-simple" args=["react-engine-example-simple",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'react-engine-example-simple',
+6 verbose parsed url   path: 'react-engine-example-simple',
+6 verbose parsed url   href: 'react-engine-example-simple' }
+7 silly lockFile e3a77c25-react-engine-example-simple react-engine-example-simple
+8 verbose lock react-engine-example-simple /home/ubuntu/.npm/e3a77c25-react-engine-example-simple.lock
+9 silly lockFile e3a77c25-react-engine-example-simple react-engine-example-simple
+10 silly lockFile e3a77c25-react-engine-example-simple react-engine-example-simple
+11 verbose addNamed [ 'react-engine-example-simple', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e49b47f1-react-engine-example-simple react-engine-example-simple@
+14 verbose lock react-engine-example-simple@ /home/ubuntu/.npm/e49b47f1-react-engine-example-simple.lock
+15 silly addNameRange { name: 'react-engine-example-simple',
+15 silly addNameRange   range: '*',
+15 silly addNameRange   hasData: false }
+16 verbose request where is /react-engine-example-simple
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 786e623461d2206f
+19 verbose url raw /react-engine-example-simple
+20 verbose url resolving [ 'https://registry.npmjs.org/',
+20 verbose url resolving   './react-engine-example-simple' ]
+21 verbose url resolved https://registry.npmjs.org/react-engine-example-simple
+22 verbose request where is https://registry.npmjs.org/react-engine-example-simple
+23 info trying registry request attempt 1 at 23:49:52
+24 http GET https://registry.npmjs.org/react-engine-example-simple
+25 http 404 https://registry.npmjs.org/react-engine-example-simple
+26 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '51',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Sat, 13 Jun 2015 23:49:52 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-atl6224-ATL',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1434239392.365005,VS0,VE31' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '51',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Sat, 13 Jun 2015 23:49:52 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-atl6224-ATL',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1434239392.365005,VS0,VE31' } ]
+28 silly lockFile e49b47f1-react-engine-example-simple react-engine-example-simple@
+29 silly lockFile e49b47f1-react-engine-example-simple react-engine-example-simple@
+30 error 404 404 Not Found: react-engine-example-simple
+30 error 404
+30 error 404 'react-engine-example-simple' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Linux 3.14.13-c9
+32 error command "/home/ubuntu/.nvm/v0.10.35/bin/node" "/home/ubuntu/.nvm/v0.10.35/bin/npm" "install" "react-engine-example-simple"
+33 error cwd /home/ubuntu/workspace
+34 error node -v v0.10.35
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]
